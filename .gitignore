@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore file weights và cache embeddings nặng
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+data/
+cache/
+.ipynb_checkpoints/
